@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #f5f9ff, #ffffff);
+  color: #34495e;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #1abc9c !important;
+}
+
+.btn-primary {
+  background-color: #1abc9c;
+  border: none;
+  padding: 8px 18px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #16a085;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(26, 188, 156, 0.3);
+}
+
+.btn-outline-primary {
+  border-color: #1abc9c;
+  color: #1abc9c;
+  padding: 8px 18px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #eafaf8;
+  color: #16a085;
+  transform: translateY(-2px);
+}
+
+.shadow {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.bg-primary {
+  background-color: #1abc9c !important;
+}
+
+footer {
+  background: #34495e;
+  color: #bdc3c7;
+}
+
+
+/* css for the owner panel */
+.bg-dark {
+  background-color: #16a085 !important;
+}
+
+.nav-link.text-white:hover {
+  color: #1abc9c !important;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f5f9ff;
+}
+
